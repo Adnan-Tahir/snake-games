@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main{
+    height: 70%;
+    width: 35%;
+    border: 10px solid aqua;
+    border-style: dashed;
+    background-color: purple;
+    /* color: darkblue; */
+}
+.game-details{
+    color: white;
+    font-size: 120%;
+    font-weight: 500;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.play-board{
+    height: 85.4%;
+    width: 100%;
+    background: linear-gradient(lime,yellow,red);
+    display: grid;
+    grid-template: repeat(30,1fr) / repeat(30,1fr);
+}
+#food{
+    background-color: purple;
+    border-radius: 50px;
+    height: 130%;
+    width: 95%;
+}
+#head{
+    background-color: blue;
+    border-radius: 50px;
+}
+#asd{
+    margin-left: 50%;
+    margin-top: 70%;
+    font-size: 250%;
+    color: red;
+
+}
